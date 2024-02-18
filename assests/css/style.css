@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:  'Roboto', sans-serif;
+    src: url();
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+    }
+.container{
+     width: 84%;
+     margin: 0px auto;
+
+    }
+#header{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#logo{
+    
+    display: flex;
+    flex-direction: row;
+}
+/* #logo>span{
+   
+    word-spacing: 10px;
+    flex-direction: row;
+    
+    font-size: 18px;
+} */
+.custom-logo{
+    color: #363958;
+   
+}
+#logo>p{
+    color:#ff8367;
+    font-size: 25px;
+    /* margin-left: 30%; */
+
+}
+.nike-logo{
+    width: 180px;
+    object-fit: contain;
+} 
+#navigation{
+    display: flex;
+    margin-left: 10px;
+    width: 100%;
+    
+}
+#navigation>ul{
+    display: flex;
+    list-style: none;
+    /* word-spacing: 10px; */
+    font-size: 18px;
+    padding-left: 45%;
+    width: 100%;
+    
+  
+    
+}
+#navigation>ul>li{
+    
+    color: #a7a7a7;
+	list-style-type: none;
+	margin-right: 40px;
+}
+ 
+.list-highlight{
+   color: #0000;
+}    
+
+#image-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#image-sub-section{
+    text-align: center;
+    margin-top: 8%;
+    
+}
+#image-container>img{
+    height: 345px;
+    float: left;
+    width: 398px;
+}
+.custom-highlight-2{
+    margin-right: 20%;
+    color: #363958;
+    font-size: 48px;
+   
+}  
+#image-container>p{
+       margin-top: 10%;
+}
+button{
+    
+   padding: 6px 18px;
+   margin-top: 10px;
+   border-radius:5px;
+   color: #ffff;
+   background-color: #000fff;
+   margin-right: 62%;
+   font-size: 15px;
+   margin-bottom: 38%;
+}
+.custom-highlight{
+    color: #ff8367;
+    font-size: 42px;
+    margin-right: 19%;
+
+}
+
+img{ 
+    
+    object-fit: contain;
+    width: 70%;
+    height: 65%;
+}
+#main-container{
+    width: 100%;
+    background-color: #D3D3D3;
+
+}
+#sub-conatiner{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    color: #363958;
+    margin-top: 10%;
+    padding-top: 8%;
+}
+.price{
+    font-size: 22px;
+    color: #ff8367;
+   
+}
+.shoe-list{
+    font-size: 20px;
+    color: #363958;
+}
+/* img{
+    object-fit: contain;
+    width: 70%;
+    height: 65%;
+
+} */
+#casual-items{
+    display: flex;
+   margin: 0px auto;
+   justify-content: space-around;
+}
+.casual-items-1{ 
+    background-color: #ffff;
+}
+/* .casual-items-2{
+    align-items: center;
+    background-color: #ffff;
+    
+}
+.casual-items-3{
+    align-items: center;
+    background-color: #ffff;
+    
+}  */
+/* .formal-1{
+   display: flex;
+   margin: 0px auto;
+   justify-content: center;
+   align-items: center;
+   
+}
+.formal-2{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .formal-3{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    
+ } */
+ .formal-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.formal-shoes{
+    width: 75%;
+    height: 95%;
+}
+.shoe-info{
+    font-size: 14px;
+}
+
